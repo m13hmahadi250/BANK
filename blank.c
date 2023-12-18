@@ -74,7 +74,7 @@ int main()
 
 	gotoxy(85, 25);
 
-	printf("JOBAYED HALIM , MAHADI HOSSAIN");
+	printf("JOBAYED,MAHADI,OMI");
 
 	gotoxy(20, 10);
 	printf("1.....CREATE A BANK ACCOUNT");
@@ -250,11 +250,11 @@ void login(void)
 
 	// Take input
 	gotoxy(35, 12);
-	printf("USERNAME.. ");
+	printf("USERNAME :-");
 	scanf("%s", &username);
 
 	gotoxy(35, 14);
-	printf("PASSWORD..");
+	printf("PASSWORD :-");
 
 	// Input the password
 	for (i = 0; i < 50; i++) {
