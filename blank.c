@@ -349,7 +349,7 @@ void display(char username1[])
 				u1.mothname);
 
 			gotoxy(55, 16);
-			printf("ADHAR CARD NUMBER..%s",
+			printf("NID NUMBER..%s",
 				u1.adharnum);
 
 			gotoxy(55, 18);
